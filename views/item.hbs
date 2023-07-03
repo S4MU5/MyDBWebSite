@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Недвижимость</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/b.." rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bo.." integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div id = "header">
+		<div id = "regform">
+			{{#if logged}}
+				{{nickName}}
+				<form action = "/logout">
+					<input type = "button">Выйти из аккаунта</input>
+				</form>
+			{{else}}
+			<form action="/registration">
+				<button id = "reg">Регистрация</button>
+			</form>
+			<form action="/login">
+				<button id = "reg">Вход</button>
+			</form>
+			{{/if}}
+		</div>
+	</div>
+	
+	<div id = "Interface">
+		<button id = "sort">Каталог</button>
+		<form action="/basket" id = "basketform">
+			<button id = "basket"><img src = "basket.png"></button>
+			</form>
+	</div>
+	<div id = "content">
+		<div id = "gif">
+		
+		</div>
+		<div id= "Syit">
+			<ul>
+					<li>{{tems.square}}</li>
+			</ul>
+		</div>
+		<div id = "gif">
+		
+		</div>
+	</div>
+</body>
+
+</html>
