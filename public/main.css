@@ -1,0 +1,199 @@
+nav {
+	margin-left: 50px;
+	height: 100%;
+	background-color: #009933;
+	border: 0;
+	color: #f8f8f8;
+	font-size: 50px;
+	letter-spacing: 1px;
+	outline: none;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Ubuntu', serif;
+  transition: .5s linear;
+}
+
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+
+.fa {
+	color: #f8f8f8;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.one ul {
+	background: #009933;
+}
+.one ul a {
+	color: #f8f8f8;
+}
+.one .submenu {
+  display: none;
+  background: #009933;
+}
+.one ul li:hover .submenu {
+  display: block;
+}
+
+body{
+	margin:0;
+	background-color: #f2f2f2;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1;
+}
+
+#login{
+	margin: auto;
+}
+
+#header{
+	width: 100%;
+	height: 100px;
+}
+
+#Interface{
+	width: 100%;	
+	height: 65px;
+	background-color: #009933;
+	border-bottom: 1px outset #006633;
+	border-top: 1px outset #006633;
+	display: flex;
+}
+
+#regform {
+	display: flex;
+	margin-left: auto;
+}
+
+#body{
+	width: 100%;
+}
+
+#basket{
+	height: 100%;
+	background-color: #009933;
+	border: 0;
+	outline: none;
+}
+
+#basketform{
+	margin-right: 50px;
+	margin-left: auto;
+	height: 100%;
+}
+
+#basket:hover{
+	border: 1px outset #009933;
+}
+#basket:active{
+	background-color: #006622;
+}
+
+#pusto{
+	width: 1600px;
+	height: 100%;
+	background-color: #009933; 
+	border: 0;
+	color: #f8f8f8;
+}
+
+#loginBTN {
+	height: 100%;
+	background-color: #009933;
+	border: 0;
+	color: #f8f8f8;
+	font-size: 25px;
+	letter-spacing: 1px;
+	outline: none;
+}
+
+#loginBTN:active
+{
+	background-color: #006633;
+}
+
+#loginBTN:hover {
+	border: 1px outset #009933;	
+}
+
+#sort{
+	margin-left: 50px;
+	height: 100%;
+	background-color: #009933;
+	border: 0;
+	color: #f8f8f8;
+	font-size: 50px;
+	letter-spacing: 1px;
+	outline: none;
+}
+#sort:active
+{
+	background-color: #006633;
+}
+
+#sort:hover {
+	border: 1px outset #009933;	
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   
+#Syit{
+	margin: auto;
+	width: 50%;
+	display: flex;
+}
+
+#gif{
+	width: 25%;
+	height: 1000px;
+	border-right: 1px;
+	border-left: 1px;
+}
+
+#item{
+	border:1px solid black;
+	height: 100%;
+	min-height: 300px;
+	width: 200px;
+	margin: 5px 5px;
+}
+
+#items{
+	max-width:1200px;
+	margin: auto;
+	margin: -5px -5px;
+}
+
+#content{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+}

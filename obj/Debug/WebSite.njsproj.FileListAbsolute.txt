@@ -1,0 +1,9 @@
+C:\Users\Onux\Desktop\курсач потом отправить в гугл диск\Новое веб-приложение\WebSite\WebSite\obj\Debug\WebSite.njsprojAssemblyReference.cache
+C:\Users\Onux\Desktop\курсач потом отправить в гугл диск\Новое веб-приложение\WebSite\WebSite\obj\Debug\WebSite.njsproj.CoreCompileInputs.cache
+C:\Users\Onux\Desktop\курсач потом отправить в гугл диск\Новое веб-приложение\WebSite\WebSite\bin\Microsoft.NodejsTools.WebRole.dll
+\\iscsi\profiles\UdartsevDA\Desktop\Новое веб-приложение\WebSite\WebSite\obj\Debug\WebSite.njsprojAssemblyReference.cache
+\\iscsi\profiles\UdartsevDA\Desktop\Новое веб-приложение\WebSite\WebSite\obj\Debug\WebSite.njsproj.CoreCompileInputs.cache
+\\iscsi\profiles\UdartsevDA\Desktop\Новое веб-приложение\WebSite\WebSite\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Onux\Desktop\Новое веб-приложение\WebSite\WebSite\obj\Debug\WebSite.njsprojAssemblyReference.cache
+C:\Users\Onux\Desktop\Новое веб-приложение\WebSite\WebSite\obj\Debug\WebSite.njsproj.CoreCompileInputs.cache
+C:\Users\Onux\Desktop\Новое веб-приложение\WebSite\WebSite\bin\Microsoft.NodejsTools.WebRole.dll
